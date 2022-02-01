@@ -21,6 +21,8 @@ img {
   width: 200px;
   padding: 10px;
   margin: 10px auto;
+  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
 img:nth-of-type(2n) {
@@ -28,8 +30,8 @@ img:nth-of-type(2n) {
   display: block;
   width: 200px;
   padding: 10px;
-  border: 2px solid #000000;
   margin: 10px auto;
+  border-radius: 20px;
 }
 
 img:hover {
